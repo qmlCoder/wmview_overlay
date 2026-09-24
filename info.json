@@ -1,0 +1,6 @@
+{
+  "name": "wmview.overlay",
+  "desc": "分子结构对齐（overlay）插件：把文件列表里多选的分子旋转/平移到与参考分子（选择的分子）最接近，结果直接写回场景，并可另存为带 -overlay 后缀的 GJF",
+  "github": "https://github.com/qmlCoder/wmview_overlay",
+  "version": "0.1.0"
+}

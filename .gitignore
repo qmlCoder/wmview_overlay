@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
+
+# Vite / Module Federation 构建临时目录
+*.timestamp-*-*.mjs
+.mf/
+
+# 打包产物（发布时用 pack.py 生成）
+*.zip
+
+# Rust WASM 子工程的编译缓存（wasm/pkg 是提交的产物，不能忽略）
+wasm/target/
+
+__pycache__/
+*.pyc
